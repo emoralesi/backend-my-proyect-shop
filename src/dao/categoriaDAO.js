@@ -8,7 +8,7 @@ export const buscarCategorias = async () => {
         return responseTypeDAO(results)
 
     } catch (error) {
-        console.log(error);
+        // console.log(error);
         throw error
     }
 }
